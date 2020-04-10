@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "caller": "^1.0.1",
+    "node-fetch": "^2.6.0",
+    "socks5-https-client": "^1.2.1"
+  },
+  "name": "socks-fetch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangweis/socks-fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangweis/socks-fetch/issues"
+  },
+  "homepage": "https://github.com/zhangweis/socks-fetch#readme",
+  "description": ""
+}
