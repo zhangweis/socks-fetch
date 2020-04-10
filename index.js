@@ -10,6 +10,7 @@ module.exports.agents = function () {
   var socksPort = (process.env.socks_port || process.env['socks_port_'+engineName]);
 var httpsAgent = new HTTPsAgent({socksHost:socksHost,socksPort})
 var httpAgent = new HTTPAgent({socksHost:socksHost,socksPort})
+  if (!socksHost) return {};
   return {httpsAgent,httpAgent};
 }
 module.exports.fetch = function(url, options) {
